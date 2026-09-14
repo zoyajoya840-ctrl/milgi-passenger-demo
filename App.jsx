@@ -1187,7 +1187,7 @@ function App() {
               : t.existing}
           </button>
 
-          {import.meta.env.DEV && (
+          {true && (
             <button
               type="button"
               className="preview-button"
